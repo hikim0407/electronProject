@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url('../common/fonts/digital-7_mono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 기본 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* 스크롤 제거 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.record-board {
+    position: absolute;
+    width: 569px; /* 이미지 너비 */
+    height: 765px; /* 이미지 높이 */
+    background-image: url('../common/images/background.png'); /* 배경 이미지 설정 */
+    background-size: contain; /* 이미지가 영역을 꽉 채우도록 설정 */
+    background-position: center; /* 중앙 정렬 */
+    background-repeat: no-repeat; /* 반복 방지 */
+}
+
+/* 공통 input 스타일 */
+.record-board input {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    outline: none;
+    text-align: center;
+    font-family: 'Digital-7', sans-serif;
+    font-weight: bold;
+}
+
+/* 무재해 배 */
+#multiple {
+    position: absolute;
+    top: 229px;
+    left: 279px;
+    width: 45px;
+    height: 45px;
+    font-size: 49px;
+    color: red;
+    font-weight: bold;
+    transform: scaleX(1.5);
+}
+
+/* 목표 일 */
+#purpose {
+    position: absolute;
+    top: 291px;
+    left: 236px;
+    width: 120px;
+    height: 62px;
+    text-align: center;
+    font-size: 65px;
+    color: yellow;
+    transform: scaleX(1.8);
+}
+
+/* 달성 일 */
+#achieve {
+    position: absolute;
+    top: 370px;
+    left: 236px;
+    width: 120px;
+    height: 62px;
+    text-align: center;
+    font-size: 65px; /* 폰트 크기 */
+    color: red;
+    transform: scaleX(1.8);
+}
+
+/* 시작 날짜 */
+.date-row:nth-child(4) input {
+    position: absolute;
+}
+#year {
+    top: 458px;
+    left: 161px;
+    width: 93px;
+    height: 47px;
+    font-size: 50px;
+    color: yellow;
+    transform: scaleX(1.5);
+}
+#month {
+    top: 458px;
+    left: 311px;
+    width: 46px;
+    height: 47px;
+    font-size: 50px;
+    color: yellow;
+}
+#day {
+    top: 458px;
+    left: 386px;
+    width: 62px;
+    height: 47px;
+    font-size: 50px;
+    color: yellow;
+}
+
+/* 현재 날짜 */
+.date-row:nth-child(5) input {
+    position: absolute;
+}
+#current-year {
+    top: 518px;
+    left: 162px;
+    width: 92px;
+    height: 47px;
+    font-size: 50px;
+    color: red;
+    transform: scaleX(1.5);
+}
+#current-month {
+    top: 518px;
+    left: 311px;
+    width: 46px;
+    height: 47px;
+    font-size: 50px;
+    color: red;
+}
+#current-day {
+    top: 518px;
+    left: 386px;
+    width: 62px;
+    height: 47px;
+    font-size: 50px;
+    color: red;
+}
+
+#current-time {
+    position: absolute;
+    top: 568px;
+    left: 237px;
+    width: 115px;
+    height: 45px;
+    font-size: 50px;
+    color: red;
+    transform: scaleX(1.5);
+}
+
+#station-name {
+    position: absolute;
+    top: 725px;
+    left: 208px;
+    width: 183px;
+    height: 21px;
+    font-size: 20px; /* 폰트 크기 */
+    font-family: 'HY헤드라인M', 'HeadLineM', sans-serif;
+}

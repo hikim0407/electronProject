@@ -1,0 +1,67 @@
+#content {
+    padding: 20px;
+    height: 735px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.settings-container {
+    background-color: #c0c0c0;
+    border: 2px solid;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    padding: 10px;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.settings-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.settings-table td:first-child {
+    text-align: right;
+    font-size: 16px;
+    font-family: '굴림', Gulim, sans-serif;
+    font-weight: bold;
+}
+
+.ipt {
+    width: 100%;
+    font-family: '굴림', Gulim, sans-serif;
+    font-size: 16px;
+    border: 2px solid;
+    border-top-color: #808080;
+    border-left-color: #808080;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+    background-color: #ffffff;
+    padding: 3px;
+}
+
+.btn {
+    font-family: '굴림', Gulim, sans-serif;
+    font-size: 14px;
+    padding: 3px 15px;
+    background-color: #c0c0c0;
+    border: 2px solid;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    margin-top: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+.btn:active {
+    border-top-color: #808080;
+    border-left-color: #808080;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+}

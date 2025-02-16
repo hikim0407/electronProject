@@ -1,0 +1,43 @@
+/* 기본 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 네비게이션 바 */
+#navbar {
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%; /* 창 너비 */
+    height: 25px; /* 고정 높이 */
+    background-color: #f4f4f4;
+    padding: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#navbar .btn-nav {
+    font-size: 14px;
+    border: none;
+    background: none;
+    color: #000;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+#navbar .btn-nav:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+#content {
+    width: 100%; /* 창 너비 */
+    height: 100vh; /* png 높이 - navbar 높이 */
+    overflow: hidden; /* 스크롤 제거 */
+}
