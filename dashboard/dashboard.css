@@ -27,13 +27,13 @@ body {
 }
 
 /* 공통 input 스타일 */
-.record-board input {
+.record-board span {
     background-color: transparent;
     border: none;
     color: #000;
     outline: none;
     text-align: center;
-    font-family: 'Digital-7', sans-serif;
+    font-family: 'HY헤드라인M', 'HeadLineM', sans-serif;
     font-weight: bold;
 }
 
@@ -44,95 +44,105 @@ body {
     left: 279px;
     width: 45px;
     height: 45px;
-    font-size: 49px;
+    line-height: 45px;
+    font-size: 45px;
     color: red;
     font-weight: bold;
-    transform: scaleX(1.5);
 }
 
 /* 목표 일 */
 #purpose {
     position: absolute;
-    top: 291px;
+    top: 289px;
     left: 236px;
     width: 120px;
     height: 62px;
+    line-height: 62px;
     text-align: center;
-    font-size: 65px;
+    font-size: 50px;
     color: yellow;
-    transform: scaleX(1.8);
+    letter-spacing: 5px;
+    transform: scaleX(1.3);
 }
 
 /* 달성 일 */
 #achieve {
     position: absolute;
-    top: 370px;
+    top: 366px;
     left: 236px;
     width: 120px;
     height: 62px;
+    line-height: 62px;
     text-align: center;
-    font-size: 65px; /* 폰트 크기 */
+    font-size: 50px;
     color: red;
-    transform: scaleX(1.8);
+    letter-spacing: 5px;
+    transform: scaleX(1.3);
 }
 
 /* 시작 날짜 */
-.date-row:nth-child(4) input {
+.date-row:nth-child(4) span {
     position: absolute;
 }
 #year {
-    top: 458px;
+    top: 459px;
     left: 161px;
     width: 93px;
     height: 47px;
-    font-size: 50px;
+    line-height: 47px;
+    font-size: 35px;
     color: yellow;
-    transform: scaleX(1.5);
+    letter-spacing: 2px;
 }
 #month {
-    top: 458px;
-    left: 311px;
+    top: 459px;
+    left: 315px;
     width: 46px;
     height: 47px;
-    font-size: 50px;
+    line-height: 47px;
+    font-size: 35px;
     color: yellow;
 }
 #day {
-    top: 458px;
-    left: 386px;
+    top: 459px;
+    left: 393px;
     width: 62px;
     height: 47px;
-    font-size: 50px;
+    line-height: 47px;
+    font-size: 35px;
     color: yellow;
 }
 
 /* 현재 날짜 */
-.date-row:nth-child(5) input {
+.date-row:nth-child(5) span {
     position: absolute;
 }
 #current-year {
-    top: 518px;
+    top: 521px;
     left: 162px;
     width: 92px;
     height: 47px;
-    font-size: 50px;
+    line-height: 47px;
+    font-size: 35px;
     color: red;
-    transform: scaleX(1.5);
+    letter-spacing: 2px;
 }
 #current-month {
-    top: 518px;
-    left: 311px;
+    top: 521px;
+    left: 315px;
     width: 46px;
     height: 47px;
-    font-size: 50px;
+    line-height: 47px;
+    font-size: 35px;
     color: red;
 }
 #current-day {
-    top: 518px;
-    left: 386px;
+    top: 521px;
+    left: 393px;
     width: 62px;
     height: 47px;
-    font-size: 50px;
+    line-height: 47px;
+    font-size: 35px;
     color: red;
 }
 
@@ -142,17 +152,17 @@ body {
     left: 237px;
     width: 115px;
     height: 45px;
-    font-size: 50px;
+    line-height: 45px;
+    font-size: 35px;
     color: red;
-    transform: scaleX(1.5);
+    transform: scaleX(1.3);
 }
 
 #station-name {
     position: absolute;
-    top: 725px;
+    top: 720px;
     left: 208px;
     width: 183px;
     height: 21px;
-    font-size: 20px; /* 폰트 크기 */
-    font-family: 'HY헤드라인M', 'HeadLineM', sans-serif;
+    font-size: 20px;
 }
